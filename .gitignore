@@ -1,0 +1,54 @@
+# ----------------------------
+# WordPress Git Ignore
+# ----------------------------
+
+# Ignore everything in root except wp-content and .gitignore
+/*
+!.gitignore
+!wp-content/
+
+# ----------------------------
+# Ignore wp-content except plugins and themes
+# ----------------------------
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# ----------------------------
+# Track only your custom plugins
+# Replace 'my-custom-plugin' with your plugin folder name
+# ----------------------------
+wp-content/plugins/*
+!wp-content/plugins/my-custom-plugin/
+
+# ----------------------------
+# Track only your custom themes
+# Replace 'my-custom-theme' with your theme folder name
+# ----------------------------
+wp-content/themes/*
+!wp-content/themes/my-custom-theme/
+
+# ----------------------------
+# Ignore uploads (media), cache, backups, and other non-code files
+# ----------------------------
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/aiowps_backups/
+wp-content/backup-db/
+wp-content/wflogs/
+
+# ----------------------------
+# Ignore system files
+# ----------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+
+# ----------------------------
+# Ignore environment files (optional)
+# ----------------------------
+.env
+wp-config.php   # Only track if you intentionally want it in Git
