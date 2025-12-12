@@ -1,9 +1,9 @@
-# Ignore everything
+\# Ignore everything
 *
 
-# Keep the .gitignore itself
+# But keep the .gitignore itself
 !.gitignore
 
-# Keep wp-content and all its files/folders
+# Keep wp-content folder and all its files
 !wp-content/
 !wp-content/**
