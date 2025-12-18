@@ -10,9 +10,15 @@ function mytheme_setup() {
 add_action('after_setup_theme', 'mytheme_setup');
 
 function mytheme_assets() {
-    wp_enqueue_style('mytheme-style', get_stylesheet_uri());
+    wp_enqueue_style(
+        'mytheme-style',
+        get_stylesheet_uri(),
+        [],
+        filemtime(get_stylesheet_directory() . '/style.css')
+    );
 }
 add_action('wp_enqueue_scripts', 'mytheme_assets');
+
 
 function mytheme_register_products() {
     register_post_type('product', [
@@ -39,19 +45,37 @@ function mytheme_product_meta() {
 add_action('add_meta_boxes','mytheme_product_meta');
 
 function mytheme_product_meta_callback($post){
-    $price=get_post_meta($post->ID,'_price',true);
-    $stock=get_post_meta($post->ID,'_stock',true);
+    $price    = get_post_meta($post->ID,'_price',true);
+    $stock    = get_post_meta($post->ID,'_stock',true);
+    $featured = get_post_meta($post->ID,'_featured',true);
     ?>
-    <label>Price ($):</label><br>
-    <input type="number" name="price" value="<?php echo esc_attr($price); ?>"><br><br>
-    <label>Stock:</label><br>
-    <input type="number" name="stock" value="<?php echo esc_attr($stock); ?>"><br>
+    <p>
+        <label>Price ($):</label><br>
+        <input type="number" name="price" value="<?php echo esc_attr($price); ?>">
+    </p>
+
+    <p>
+        <label>Stock:</label><br>
+        <input type="number" name="stock" value="<?php echo esc_attr($stock); ?>">
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" name="featured" value="1" <?php checked($featured, '1'); ?>>
+            Featured Product
+        </label>
+    </p>
     <?php
 }
 
+
 function mytheme_save_product_meta($post_id){
-    if(isset($_POST['price'])) update_post_meta($post_id,'_price',$_POST['price']);
-    if(isset($_POST['stock'])) update_post_meta($post_id,'_stock',$_POST['stock']);
+
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
+    if (get_post_type($post_id) !== 'product') return;
+
+    update_post_meta($post_id,'_price', $_POST['price'] ?? '');
+    update_post_meta($post_id,'_stock', $_POST['stock'] ?? '');
+    update_post_meta($post_id,'_featured', isset($_POST['featured']) ? '1' : '0');
 }
 add_action('save_post','mytheme_save_product_meta');
-?>

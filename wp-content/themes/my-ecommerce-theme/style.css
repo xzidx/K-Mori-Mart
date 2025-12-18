@@ -1,6 +1,3100 @@
-/*
- Theme Name: My E-commerce Theme
- Author: Demo
- Description: Starter custom e-commerce theme without WooCommerce.
- Version: 1.0
-*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*
+    Theme Name: My E-commerce Theme
+    Author: Demo
+    Description: Starter custom e-commerce theme without WooCommerce.
+    Version: 1.0
+    */
+
+    /* =======================
+    Header Styles
+    ======================= */
+    body {
+        margin: 5px;
+        padding: 0;
+    }
+   
+    .header {
+        display: flex;
+        justify-content: space-between; /* site title left, menu right if needed */
+        align-items: center;
+        padding: 0;
+        /* background-color: #f8f8f8; */
+        border-bottom: 2px solid #FF4400;
+        gap: 50px; /* space between title and menu */
+    }
+
+    .header h1 {
+        font-size: 30px;
+        margin: 0;
+        color: #222;
+    }
+    .header-img{
+        width: 100px;
+        height: 70px;
+        /* background-color: red; */
+        object-fit: contain;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* =======================
+    Menu Container
+    ======================= */
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;             /* horizontal layout on desktop */
+        justify-content: flex-start; /* left-align menu items */
+        gap: 20px;                 /* space between menu items */
+    }
+
+    /* Menu links */
+    .menu li a {
+        font-size: 20px;
+        color: #222;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 15px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+
+
+   
+    .phone-only {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .icon-account {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .banner {
+        position: relative;
+        padding: 20px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+         overflow: hidden;
+        
+       
+    }
+    .banner img {
+       
+        object-fit: contain;
+        width: 90%;
+        height: 590px;
+       
+        border: 2px solid #FF4400;
+        border-radius: 10px;
+    }
+    .search-box {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        background: white;
+        border-radius: 15px;
+        border: 1px solid #FF4400;
+        padding: 10px;
+        width: 600px;
+    }
+
+    .search-box input {
+        border: none;
+        outline: none;
+        padding: 10px;
+        flex: 1;
+        border-radius: 30px;
+    }
+
+    .search-box button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .search-box input {
+        font-size: 16px;   /* change this value */
+    }
+
+    .icon-find {
+        font-size: 20px;
+    }
+    .category-text h1{
+        color: #FF4400;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+   .category-row {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr); /* laptop */
+        gap: 12px;
+        padding: 20px;
+    }
+
+/* category card */
+    .category-item {
+        width: 130px;
+        height: 130px;
+        display: flex;
+        flex-direction: column; /* image on top, text under */
+        align-items: center;
+    }
+
+    /* image */
+    .category-item img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    /* text UNDER image */
+    .category-item span {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        color: #333;
+    }
+
+    .feture-product h1 {
+        color: #FF4400;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+
+   .product-grid {
+    display: flex;           /* flex for horizontal scroll */
+    gap: 20px;               /* space between items */
+    overflow-x: auto;        /* allow horizontal scroll */
+    padding: 10px 0;         /* optional spacing */
+    scroll-behavior: smooth; /* smooth scrolling */
+}
+
+.product {
+    flex: 0 0 250px;         /* fixed width per product */
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border: 1px solid #FF4400;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+    .product img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+
+    .product h3 {
+        margin: 10px 0 5px;
+        font-size: 18px;
+    }
+
+
+    .country {
+        font-size: 14px;
+        color: #666;
+    }
+
+
+    .status {
+        margin: 6px 0;
+        font-weight: bold;
+    }
+
+
+    .available {
+        color: rgb(0, 255, 0);
+        font-weight: 400;
+    }
+
+
+    .not-available {
+        color: red;
+    }
+    .qty {
+        display: flex;
+        align-items: center;
+        gap: 4px; /* small space between - / input / + */
+    }
+
+    .qty button {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+        padding: 0;
+        border-radius: 4px;
+    }
+
+    .qty input {
+        width: 30px;       /* smaller input */
+        height: 25px;      /* same height as buttons */
+        text-align: center;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .action-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+    .buy {
+        padding: 10px;
+        color: #FF4400;
+        border: 1px solid #FF4400;
+    }
+    .cart {
+        padding: 10px;
+        color: white;
+        background-color: #FF4400;
+        border: 1px solid white;
+    }
+    /* PRICE & QUANTITY */
+    .price-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .price {
+        color: #FF4400;
+        font-size: 25px;
+    }
+    .last-product h1{
+        color: #FF4400;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+
+    .more-product {
+        margin: 10px;
+        text-align: right;
+        font-size: 20px;
+    }
+
+
+    .best-offer h1 {
+        color: #FF4400;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .best-offer-box {
+        background-color: #FF4400;
+        width: 100%;
+        /* height: 450px; */
+        display: flex;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        border-radius: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .best-offer-discount {
+        width: 300px;
+        height: 400px;
+        border: 2px solid #ffffff;
+    }
+    .best-offer-discount img {
+        width: 100%;
+        height: 100%;
+    }
+    .best-offer-card {
+        /* width: 290px; */
+        height: 380px;
+       background-color: white;
+       border-radius: 10px;
+       padding: 15px;
+       margin-left: 20px;
+    }
+    .best-offer-card img {
+         width: 250px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .best-offer-card h3 {
+        margin: 5px;
+        font-size: 20px;
+    }
+
+
+
+    .coupon-popup-container {
+        /* Main container styling */
+        width: 98%; /* Occupy most of the screen width */
+        max-width: 100%; /* Optional: Limit size on very large screens */
+        margin: 20px auto; /* Center the container on the screen */
+        padding: 20px;
+        background-color: #ff5722; /* Vibrant Orange Background */
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        
+        /* Layout using Flexbox */
+        display: flex;
+        flex-direction: column; /* Stack content and image areas vertically on mobile */
+        align-items: center; /* Center items horizontally */
+        overflow: hidden; /* To keep the coupon image contained */
+    }
+
+    /* --- Content Area Styling --- */
+    .content-area {
+        padding: 10px 0;
+        text-align: left;
+        width: 100%; /* Take full width of parent */
+    }
+
+    .content-area h1 {
+        font-size: 30px; /* Large, responsive font size */
+        line-height: 1.1;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .content-area a {
+        font-size: 20px;
+    }
+
+    .highlight {
+        color: black; /* Color for the word 'Free' */
+        background-color: transparent;
+    }
+
+    .tagline {
+        font-size: 20px;
+        margin-bottom: 20px;
+        opacity: 0.9;
+    }
+
+    /* --- Sign Up Button Styling --- */
+    .sign-up-btn {
+        background-color: white;
+        color: #ff5722; /* Orange text color */
+        border: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s;
+        margin-bottom: 10px;
+        display: block; /* Make it take full width for better tapping, adjust if needed */
+        width: 30%; /* Or set a specific width */
+    }
+
+    .sign-up-btn:hover {
+        background-color: #f5f5f5;
+    }
+
+    /* --- Login Link Styling --- */
+    .login-link {
+        display: block;
+        color: white;
+        font-size: 3vw;
+        text-decoration: none;
+        opacity: 0.7;
+        margin-top: 5px;
+    }
+
+    .login-link:hover {
+        opacity: 1;
+    }
+
+    /* --- Image Area Styling --- */
+    .image-area {
+        
+        width: 20%;
+        display: flex;
+        /* Push the image to the right */
+        /* padding: 20px 0 0 0; Add space between text and image */
+    }
+    .image-area img {
+        display: none;
+    }
+    .coupon-image {
+        max-width: 50%; /* Image takes half the container width */
+        height: auto;
+        /* You can use position: relative and adjust top/right 
+        if you need the image to partially overlap the container edge 
+        as it might in the original image. */
+    }
+
+
+
+
+
+
+
+
+    .site-footer {
+        width: 100%;
+        background-color: #ff5722; /* Vibrant Orange */
+        color: white;
+        font-family: Arial, sans-serif;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer-section {
+        padding: 15px 10px;
+    }
+
+    /* Horizontal Dividers */
+    .section-divider-top, .section-divider-middle {
+        border: none;
+        border-top: 1px solid white; /* White line divider */
+        margin: 0 10px; /* Shorten line slightly */
+        opacity: 0.5;
+    }
+
+    /* --- Section 1: Navigation Links --- */
+    .footer-nav-links {
+        font-size: 1.1em;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-nav-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+
+    /* --- Section 2: Social Icons --- */
+    .social-icons a {
+        color: white;
+        font-size: 2em; /* Large size for tapping on mobile */
+        margin: 0 10px;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px; /* Add padding for larger tap area */
+    }
+    /* Placeholder icon styling */
+    .social-icons i {
+        font-style: normal;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
+    }
+
+    /* --- Section 3: Copyright Main --- */
+    .copyright-area {
+        padding-top: 10px;
+        padding-bottom: 25px;
+        font-size: 0.85em;
+    }
+
+    .privacy-link {
+        color: white;
+        text-decoration: underline; /* Underlined like the image */
+    }
+
+
+    /* --- Section 4: Bottom Bar (Black Background) --- */
+    .footer-bottom-bar {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        font-size: 0.75em;
+        text-align: center; /* Center links on mobile */
+        
+        /* Using Flex for potential future desktop layout */
+        display: flex;
+        flex-direction: column; /* Stack links and copyright vertically on mobile */
+        gap: 5px;
+    }
+
+    .bottom-links a {
+        color: white;
+        text-decoration: none;
+        padding: 0 5px;
+    }
+
+    /* Ensure the links section takes precedence over the copyright line */
+    .bottom-links {
+        order: 1; /* Appears first */
+    }
+    .bottom-copyright {
+        order: 2; /* Appears second */
+        padding-top: 5px;
+    }
+    .product-details-box {
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        /* background-color: rgb(255, 208, 201); */
+        border-radius: 15px;
+        border:  2px solid #FF4400;
+        padding: 10px;
+    }
+    .product-details-img {
+        width: 500px;
+        height: 500px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 15px;
+        
+    }
+    .product-details-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        border: 2px solid #FF4400;
+    }
+
+    .product-details-info {
+        /* margin-left: 80px; */
+    
+        width: 500px;
+        /* background-color: yellow; */
+    }
+    .product-details-info h1 {
+        font-size: 35px;
+    }
+    .product-details-info span {
+        font-size: 17px;
+        margin-left: 15px;
+        color: #FF4400;
+    }
+    .from span {
+        color: black;
+        margin-right: 10px;
+    }
+    .product-details-info p {
+        font-size: 17px;
+        margin-left: 15px;
+        color: rgb(0, 0, 0);
+        
+    }
+    .product-details-info h2 {
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .product-details-info h6 {
+       
+        font-size: 15px;
+        margin: 15px;
+        font-weight: 500;
+        color: rgb(0, 255, 0);
+    }
+    .deli-icon {
+        color: #FF4400;
+    }
+    .product-details-info h3 {
+        font-size: 20px;
+        font-weight: 550;
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
+    .price-row-deatils {
+        margin-left: 20px;
+        display: flex;
+        gap: 200px;
+    }
+
+
+    
+    .action-buttons-product {
+        margin: 20px;
+    }
+
+    .buy-product {
+        margin-left: 10px;
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        color: #FF4400;
+        border: 2px solid #FF4400;
+    }
+    .cart-product {
+        margin-left: 10px;
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        color: #ffffff;
+        border: 2px solid #FF4400;
+        background-color: #FF4400;
+    }
+
+
+    .qty-details {
+        display: flex;
+        gap: 10px;
+             
+         }
+    .qty-details input {
+        width: 40px;      /* number box size */
+        height: 21px;
+        font-size: 15px;
+        text-align: center;
+        border: 1px solid #FF4400;
+    }
+    .qty-details button {
+        width: 25px;      /* change size here */
+        height: 25px;   
+        font-size: 20px;  /* + - size */
+        cursor: pointer; 
+        background-color: white;
+        border: 1px solid #FF4400;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* =======================
+    Mobile Responsive
+    ======================= */
+    @media (max-width: 768px) {
+        
+        .header {
+            display: flex;
+        
+        }
+
+        .header h1 {
+            font-size: 20px;
+        }
+        .header-img {
+            width: 60px;
+            height: 40px;
+        }
+        .phone-only {
+            display: inline-block; /* show on mobile */
+            font-size: 15px;
+            color: #FF4400;
+            margin-left: 10px;
+        }
+        .icon-account {
+            display: inline-block; /* show on mobile */
+            font-size: 15px;
+            color: #FF4400;
+            margin-left: 10px;
+        }
+        .menu {
+            display: none;        /* hide menu by default */
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background: #f5f5f5;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 9999;
+            flex-direction: column; /* stack items vertically when shown */
+        }
+        .menu ul {
+            display: inline;
+        }
+        .menu.show {
+            display: flex;        /* show menu as flex container */
+            flex-direction: column; /* stack items vertically */
+        }
+
+        /* Make <li> items full width and stacked */
+        .menu-list {
+            display: block;       /* stack the list vertically */
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+           overflow: hidden;
+        }
+
+        .menu-list li {
+            width: 100%;
+            /* border: 1px solid #ddd; optional separator */
+        }
+
+        .menu-list li a {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 15px;
+            white-space: normal;
+            word-break: break-word;
+        }
+        .banner {
+            margin-top: 15px;
+            overflow: hidden;
+            padding: 0;
+        
+        }
+        .banner img {
+            object-fit: contain;
+            width: 100%;
+            height: 200px;
+            
+        }
+         .search-box {
+            width: 80%;
+            padding: 1px;
+            border-radius: 10px;
+        }
+        .search-box input {
+        font-size: 12px;   /* change this value */
+        }
+        .icon-find {
+            font-size: 15px;
+        }
+        .category-text h1{
+            font-size: 20px;
+            margin: 0;
+            margin-top: 10px;
+        }
+        .category-row {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .category-item span {
+            font-size: 12px;
+        }
+        /* image */
+        .category-item img {
+            width: 100%;
+            height: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .category-row {
+            gap: 20px;
+            padding: 15px;
+        }
+        .feture-product h1 {
+            font-size: 20px;
+            margin:0;
+            margin-top: 10px;
+        }
+        
+        .product-grid {
+         display: flex;
+        gap: 10px;
+        overflow-x: auto;
+    }
+
+        .product-grid::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .product-grid::-webkit-scrollbar-thumb {
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 4px;
+        }
+         .category-item {
+        width: 50px;
+        height: 60px;
+        display: flex;
+        flex-direction: column; /* image on top, text under */
+        align-items: center;
+    }
+
+        .product {
+             flex: 0 0 160px;
+        }
+        .product img {
+            height: 120px;
+        }
+        
+        .product h3 {
+            font-size: 14px;
+        }
+        
+        .country, .status, .price {
+            font-size: 11px;
+        }
+        .qty {
+            gap: 2px;
+        }
+
+        .qty button {
+            padding: 5px;
+            width: 17px;
+            height: 17px;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 10px;
+        }
+
+        .qty input {
+            width: 15px;
+            height: 12px;
+            font-size: 12px;
+        }
+        .price {
+            font-size: 15px;
+        }
+        .action-buttons button {
+            font-size: 10px;
+            padding: 7px;
+        }
+        .last-product h1{
+            font-size: 20px;
+             margin:0;
+
+        }
+        .more-product {
+            margin: 5px;
+            font-size: 12px;
+        }
+        .best-offer h1 {
+            font-size: 20px;
+             margin:0;
+             margin-bottom: 5px;
+        }
+        .best-offer-box {
+            background-color: #FF4400;
+            width: 100%;
+            height: 290px;
+            display: flex;
+            /* justify-content: space-evenly; */
+            align-items: center;
+            border-radius: 5px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            margin-bottom: 10px;
+            line-height: 10px;
+        }
+        .best-offer-box::-webkit-scrollbar {
+            height: 0px;
+        }
+        .best-offer-discount {
+            flex: 0 0 auto; /* fixed size */
+            width: 180px;
+            height: 245px;
+            border: 2px solid white;
+            background-color: blue;
+        }
+        .best-offer-discount img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .best-offer-card {
+            /* width: 340px; */
+                height: 250px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            /* line-height: 20px; */
+            /* padding: 10px;
+            margin-left: 10px; */
+        }
+        .best-offer-card img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .best-offer-card h3 {
+            margin-left: 0;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        .best-offer-box h3 {
+            font-size: 14px;
+        }
+        .coupon-popup-container {
+            height: 350px;
+            width: 400px;
+            flex-direction: row; /* Layout side-by-side */
+            padding: 15px;
+            overflow: hidden;
+            box-sizing: border-box;
+            /* box-sizing: border-box; */
+        }
+
+        .content-area {
+            width: 60%; 
+            padding-right: 20px;
+            text-align: left;
+            
+        }
+        .content-area p {
+            font-size: 15px;
+        }
+        .content-area a {
+            font-size: 15px;
+        }
+        
+        .image-area {
+            width: 40%;
+            padding: 0;
+            align-items: center;
+            display: inline;
+        }
+        .image-area img {
+            display: inline;
+        }
+        .coupon-image {
+            max-width: 100%;
+        }
+
+        .content-area h1 {
+            font-size: 2.5em; /* Use fixed units for larger screens */
+        }
+        
+        .sign-up-btn {
+            font-size: 20px;
+            width: auto;
+        }
+        .footer-bottom-bar {
+            flex-direction: row; /* Side-by-side on desktop */
+            justify-content: space-between; /* Links on left, copyright on right */
+            padding: 10px 40px;
+        }
+        .bottom-links {
+            order: 1;
+        }
+        .bottom-copyright {
+            order: 2;
+            padding-top: 0;
+        }
+        .product-details-box {
+            display: inline;
+            overflow: hidden;
+            border:none;
+        }
+        .product-details-img {
+            width: 320px;
+            height: 300px;
+            margin-left: 20px;
+        }
+         .product-details-info {
+            width: 365px;
+            box-sizing: border-box;
+         }
+         .product-details-info h1 {
+            font-size: 25px;
+            margin-top: 25px;
+            margin-left: 15px;
+         }
+         .product-details-info h2 {
+            font-size: 18px;
+         }
+         .product-details-info  h3 {
+            font-size: 20px;
+         }
+         .product-details-info h6 {
+            font-size: 15px;
+            color: rgb(0, 255, 21);
+            margin-left: 15px;
+            font-weight: 500;
+         }
+         .deli-icon {
+            font-size: 15px;
+         }
+         .price-row-deatils {
+            margin-top: 10px;
+         }
+         .price {
+            font-size: 20px;
+         }
+         .qty-details {
+            display: flex;
+            gap: 10px;
+             
+         }
+         .qty-details input {
+            width: 40px;      /* number box size */
+            height: 22px;
+            font-size: 15px;
+            text-align: center;
+         }
+         .qty-details button {
+        width: 25px;      /* change size here */
+        height: 25px;
+        font-size: 20px;  /* + - size */
+        cursor: pointer;
+        
+}
+        }
+        
